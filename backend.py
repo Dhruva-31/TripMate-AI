@@ -59,7 +59,7 @@ def flight_agent(state: TravelState) -> TravelState:
 
 
 def hotel_agent(state: TravelState) -> TravelState:
-    query = f"Best hotels for {state["user_query"]}"
+    query = f"Best hotels for {state['user_query']}"
     hotel_results = tavily_search(query)
 
     state["hotel_results"] = hotel_results
