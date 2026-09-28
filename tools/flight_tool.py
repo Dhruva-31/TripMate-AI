@@ -1,6 +1,5 @@
 import os
 import re
-import certifi
 import airportsdata
 import pycountry
 import requests
